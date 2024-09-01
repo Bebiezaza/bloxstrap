@@ -40,7 +40,14 @@
 
         <StackPanel Visibility="{Binding BuildInformationVisibility, Mode=OneTime}">
             <TextBlock Text="Build Information" FontWeight="Medium" FontSize="20" Margin="0,16,0,0" />
-            <TextBlock Text="hmmmm" Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="with Multiple Instances Modification!" Foreground="Yellow" />
+                <TextBlock Grid.Column="1" Text="@Bebiezaza" Margin="20,0,0,0" Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
+            </Grid>
 
             <Grid Column="0" Margin="0,8,0,0">
                 <Grid.RowDefinitions>
