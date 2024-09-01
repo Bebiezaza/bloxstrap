@@ -1,5 +1,6 @@
 > [!CAUTION]
-> The only official places to download Bloxstrap are this GitHub repository and [bloxstrap.pizzaboxer.xyz](https://bloxstrap.pizzaboxer.xyz). Any other websites offering downloads or claiming to be us are not controlled by us.
+> This is not the official Bloxstrap. Upside : Multiple Instances
+<!-- > The only official places to download Bloxstrap are this GitHub repository and [bloxstrap.pizzaboxer.xyz](https://bloxstrap.pizzaboxer.xyz). Any other websites offering downloads or claiming to be us are not controlled by us. -->
 
 # <img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="48"/> Bloxstrap
 
@@ -19,7 +20,10 @@ Running into a problem or need help with something? [Check out the Wiki](https:/
 Bloxstrap is only supported for PCs running Windows.
  
  ## Installing
-Download the [latest release of Bloxstrap](https://github.com/pizzaboxer/bloxstrap/releases/latest), and run it. Configure your preferences if needed, and install. That's about it!
+Read https://github.com/pizzaboxer/bloxstrap/wiki/Building-Bloxstrap-from-source
+
+If `bin\Release\net6.0-windows\publish`, as stated in the official guide, does not exist, download and install normal Bloxstrap from https://github.com/pizzaboxer/bloxstrap/releases. Then go back up to `bin\Release\net6.0-windows` and copy the entire contents of the folder to your bloxstrap install directory (Usually `AppData\Local\Bloxstrap`). This is an issue I encountered and doing the stated somehow fixes it.
+<!-- Download the [latest release of Bloxstrap](https://github.com/pizzaboxer/bloxstrap/releases/latest), and run it. Configure your preferences if needed, and install. That's about it!
 
 Alternatively, you can install Bloxstrap via [Winget](https://winstall.app/apps/pizzaboxer.Bloxstrap) by running this in a Command Prompt window:
 ```
@@ -31,7 +35,7 @@ You will also need the [.NET 6 Desktop Runtime](https://aka.ms/dotnet-core-appla
 It's not unlikely that Windows Smartscreen will show a popup when you run Bloxstrap for the first time. This happens because it's an unknown program, not because it's actually detected as being malicious. To dismiss it, just click on "More info" and then "Run anyway".
 
 Once installed, Bloxstrap is added to your Start Menu, where you can access the menu and reconfigure your preferences if needed.
- 
+ -->
 ## Features
 Here's some of the features that Bloxstrap provides over the stock Roblox bootstrapper:
 
