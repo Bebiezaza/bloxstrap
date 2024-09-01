@@ -2236,6 +2236,24 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Allows for having more than one Roblox game client instance open simultaneously..
+        /// </summary>
+        public static string Menu_Integrations_AllowMultipleInstances_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.AllowMultipleInstances.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allow multi-instance launching.
+        /// </summary>
+        public static string Menu_Integrations_AllowMultipleInstances_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.AllowMultipleInstances.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Application Location.
         /// </summary>
         public static string Menu_Integrations_Custom_AppLocation {
